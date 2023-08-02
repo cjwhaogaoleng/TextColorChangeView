@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        colorTrackTextView = findViewById(R.id.color_tv);
+//        colorTrackTextView = findViewById(R.id.color);
 
         mIndicator = new ArrayList<>();
         mIndicatorContainer = findViewById(R.id.indicator_view);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 super.onPageScrolled(position, positionOffset, positionOffsetPixels);
-
+                //利用viewpager的滚动监听，为ColorTrackTextView提供滚动进度
                 ColorTrackTextView left = mIndicator.get(position);
                 left.setDirection(ColorTrackTextView.Direction.RIGHT_TO_LEFT);
                 left.setCurrentProgress(1-positionOffset);

@@ -1,12 +1,12 @@
 # TextColorChangeView
 实现字体变色效果的view，可以和其余需要滑动的页面结合
-## 效果展示
+ ## 效果展示
 https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3ab4-466d-b2f8-c1711dc01c06
 
 以上展示的只是和viewPager相结合
-## 引入依赖
+ ## 引入依赖
 暂未打包
-## 代码讲解
+ ## 代码讲解
 ```
 viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
@@ -27,9 +27,9 @@ viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             }
         });
 ```
-##待完成
+ ## 待完成
  - [x] 自定义view
-   - [x] onMeasure
+   - [x] onMeasure 源码和写法基本了解
    - [x] onDraw
    - [ ] onTouch 触碰事件正在学习
  - [ ] compose 已经接触，还没有另一种熟练

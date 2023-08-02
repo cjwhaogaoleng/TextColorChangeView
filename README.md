@@ -72,5 +72,8 @@ private fun initViewPager() {
  - [x] 自定义view
    - [x] onMeasure 源码和写法基本了解
    - [x] onDraw 源码和写法基本了解
-   - [ ] onTouch 触碰事件正在学习
+   - [ ] onTouch 触碰分发事件正在学习
  - [ ] compose 已经接触，还没有另一种熟练
+ - [ ] :disappointed: :blush:
+ ## 另一份自定义view
+ https://github.com/cjwhaogaoleng/QQStepView.git

@@ -7,8 +7,8 @@ https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3
  ## 引入依赖
 暂未打包，后面可以导成依赖供考核使用
  ## 源码位置
-/app/src/main/java/com/example/textcolorchange
-/ColorTrackTextViewK.kt
+/app/src/main/java/com/example/textcolorchange/ColorTrackTextViewK.kt
+/app/src/main/java/com/example/textcolorchange/ColorTrackTextViewK.kt
  ## 代码讲解
   ### JAVA
 ```

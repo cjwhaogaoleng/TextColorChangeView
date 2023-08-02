@@ -28,7 +28,8 @@ viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
         });
 ```
 ##待完成
--[] 自定义view
- -[x] onMeasure
- -[x] onDraw
- -[]onTouch 触碰事件正在学习
+- [x] 自定义view
+ - [x] onMeasure
+ - [x] onDraw
+ - [ ] onTouch 触碰事件正在学习
+- [ ] compose 已经接触，还没有另一种熟练

@@ -7,8 +7,7 @@ https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3
 ## 引入依赖
 暂未打包
 ## 代码讲解
-'
-viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+'<viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 super.onPageScrolled(position, positionOffset, positionOffsetPixels);
@@ -23,4 +22,4 @@ viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
                         }
             }
         });
-'
+>'

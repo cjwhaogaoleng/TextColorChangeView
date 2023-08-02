@@ -12,9 +12,12 @@ viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 super.onPageScrolled(position, positionOffset, positionOffsetPixels);
+                //利用viewpager的滚动监听，为ColorTrackTextView提供滚动进度
                 ColorTrackTextView left = mIndicator.get(position);
+                //设置左边的滚动方式
                 left.setDirection(ColorTrackTextView.Direction.RIGHT_TO_LEFT);
                 left.setCurrentProgress(1-positionOffset);
+                //设置右边textview的滚动方式
                 ColorTrackTextView right;
                 if (position<mIndicator.size()-1) {
                     right = mIndicator.get(position + 1);
@@ -24,3 +27,8 @@ viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             }
         });
 ```
+##待完成
+-[] 自定义view
+ -[x] onMeasure
+ -[x] onDraw
+ -[]onTouch 触碰事件正在学习

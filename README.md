@@ -5,7 +5,7 @@ https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3
 
 以上展示的只是和viewPager相结合
  ## 引入依赖
-暂未打包
+暂未打包，后面可以导成依赖供考核使用
  ## 代码讲解
 ```
 viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {

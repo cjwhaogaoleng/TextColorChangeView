@@ -78,5 +78,6 @@ private fun initViewPager() {
    - [ ] onTouch 触碰分发事件正在学习
  - [ ] compose 已经接触，还没有另一种熟练
  - [ ] :disappointed: :blush:
- ## 另一份自定义view
+ ## 另外的自定义view
  https://github.com/cjwhaogaoleng/QQStepView.git
+ https://github.com/cjwhaogaoleng/VerticalDragListView.git

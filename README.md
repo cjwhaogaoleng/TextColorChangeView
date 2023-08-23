@@ -11,7 +11,7 @@ https://github.com/cjwhaogaoleng/TextColorChangeView/assets/117556474/7f792e20-3
 /app/src/main/java/com/example/textcolorchange/ColorTrackTextView.java
  ## 代码讲解
   ### JAVA
-```
+```java
 viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -32,7 +32,7 @@ viewPager2.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
         });
 ```
   ### KOTLIN
-```
+```kotlin
 private fun initViewPager() {
         initData()
         viewPager2 = findViewById(R.id.vp2)
@@ -95,3 +95,5 @@ private fun initViewPager() {
 
  https://github.com/cjwhaogaoleng/LetterSideBar.git
 
+
+Loading…

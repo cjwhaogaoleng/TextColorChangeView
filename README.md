@@ -72,17 +72,19 @@ private fun initViewPager() {
  fun setOriginColor(originColor: Int);
 ```
  ## 待完成
- - [x] 自定义view
+ - [x] 自定义view & viewgroup
    - [x] onMeasure 源码和写法基本了解
    - [x] onDraw 源码和写法基本了解
-   - [x] onTouch 分发，拦截，处理事件
+   - [x] onTouch 分发，拦截，处理事件，源码分析完成
+   - [x] onLayout viewGroup内view的拜访
    - [ ] 动画处理
- - [x] viewgroup
-   - [x] onLayout  
+   - [ ] materialDdsign 正在学习
  - [ ] compose 已经接触，还没有另一种熟练
  - [ ] :disappointed: :blush:
 
  ## 另外的自定义view
+ NineSquareGridView（最近的一个自定义view）完全使用kotlin，其余的部分使用kotlin
+
  https://github.com/cjwhaogaoleng/QQStepView.git
 
  https://github.com/cjwhaogaoleng/NineSquareGridView.git

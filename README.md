@@ -76,7 +76,7 @@ private fun initViewPager() {
    - [x] onMeasure 源码和写法基本了解
    - [x] onDraw 源码和写法基本了解
    - [x] onTouch 分发，拦截，处理事件，源码分析完成
-   - [x] onLayout viewGroup内view的拜访
+   - [x] onLayout viewGroup内view的摆放
    - [ ] 动画处理
    - [ ] materialDdsign 正在学习
  - [ ] compose 已经接触，还没有另一种熟练
